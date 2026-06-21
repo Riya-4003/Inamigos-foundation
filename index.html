@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>InAmigos Foundation</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<div>
+
+
+<!-- Navbar -->
+
+<nav>
+
+<div class="logo">
+
+<img src="data:image/jpeg;base64,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">
+
+<h2>InAmigos Foundation</h2>
+
+</div>
+
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#impact">Impact</a></li>
+
+<li><a href="#gallery">Gallery</a></li>
+
+<li><a href="#video">Video</a></li>
+
+<li><a href="#location">Location</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+
+
+<!-- Hero -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>Uniting Minds For Change</h1>
+
+<p>
+
+Together we can empower lives,
+protect nature and build a brighter future.
+
+</p>
+
+<a href="#" class="btn">Join Us</a>
+
+<a href="#" class="btn2">Volunteer</a>
+
+</div>
+
+</section>
+
+
+
+<!-- About -->
+
+<section class="about" id="about">
+
+<h2>About InAmigos Foundation</h2>
+
+<p>
+
+InAmigos Foundation is a Section 8 NGO
+working in education, women empowerment,
+environment sustainability, hunger relief
+and animal welfare.
+
+</p>
+
+</section>
+
+
+
+<!-- Projects -->
+
+<section class="projects" id="projects">
+
+<h2>Our Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>SEVA</h3>
+<p>Food Distribution Program</p>
+</div>
+
+<div class="card">
+<h3>BachpanShala</h3>
+<p>Education for Children</p>
+</div>
+
+<div class="card">
+<h3>UDAAN</h3>
+<p>Women Skill Development</p>
+</div>
+
+<div class="card">
+<h3>PRAKRITI</h3>
+<p>Tree Plantation Campaigns</p>
+</div>
+
+<div class="card">
+<h3>JEEV</h3>
+<p>Animal Welfare Activities</p>
+</div>
+
+<div class="card">
+<h3>VIKAS</h3>
+<p>Youth Leadership Program</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Impact -->
+
+<section class="impact" id="impact">
+
+<h2>Our Impact</h2>
+
+<div class="numbers">
+
+<div>
+
+<h1>50K+</h1>
+
+<p>Meals Served</p>
+
+</div>
+
+
+<div>
+
+<h1>20K+</h1>
+
+<p>Saplings Planted</p>
+
+</div>
+
+
+<div>
+
+<h1>900+</h1>
+
+<p>Women Empowered</p>
+
+</div>
+
+
+<div>
+
+<h1>30K+</h1>
+
+<p>Youth Trained</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Gallery -->
+
+<section class="gallery" id="gallery">
+
+<h2>Gallery</h2>
+
+<div class="images">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROvMspFtBnO4TJo8r_2xTDSOkfj3dHg6NigxK1WGtSUQ&s">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ122LWHFv1xViwR-gx5YJEOckaJhb7CUiyHJ5ROB9VzQ&s=10">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8YFEH7zHa353k7zk6YL429KBkNI4CoB1c64tBNlw5hA&s=10">
+
+</div>
+
+</section>
+
+
+
+<!-- YouTube -->
+
+<section class="video-section" id="video">
+
+<h2>Watch Our Journey</h2>
+
+<div class="video-container">
+
+<iframe
+ width="560" height="315"
+  src="https://www.youtube.com/embed/ApFogc_9-zo?si=DhjswRpblr1jpk60"
+   title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+
+</div>
+
+</section>
+</div>
+
+
+
+
+<!-- Location -->
+
+<section class="location" id="location">
+
+<h2>Our Location</h2>
+
+<p>
+
+InAmigos Foundation Office
+
+</p>
+
+<p>
+
+Address: ward No.5, Gram post,ujwal nagar,seepat,chhattisgarh,495555
+
+</p>
+
+
+<div class="map">
+
+
+
+src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.5049061242803!2d82.28758617383478!3d22.144844748514984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a27e15a05555555%3A0x1eb1a48ff8d845fb!2sInAmigos%20Foundation!5e0!3m2!1sen!2sin!4v1782015005001!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+
+
+</div>
+
+</section>
+
+
+
+<!-- Contact -->
+
+<section class="contact" id="contact">
+
+<h2>Contact Us</h2>
+
+<p>📧 inamigosfoundation@gmail.com</p>
+
+<p>📞 +91 98765 43210</p>
+
+<p>📱 WhatsApp Available</p>
+
+</section>
+
+
+
+<!-- CTA -->
+
+<section class="cta">
+
+<h2>
+
+Be The Reason Someone Smiles Today
+
+</h2>
+
+<p>
+
+Volunteer • Donate • Spread Awareness
+
+</p>
+
+<button>
+
+Support Us
+
+</button>
+
+</section>
+<!-- Follow Us Section -->
+
+<section class="social-media">
+
+<h2>Follow Us</h2>
+
+<p>Stay connected with InAmigos Foundation on social media.</p>
+
+<div class="social-icons">
+
+<a href="https://www.instagram.com/" target="_blank">
+<img src="images/instagram.png" alt="Instagram">
+</a>
+
+<a href="https://www.facebook.com/" target="_blank">
+<img src="images/facebook.png" alt="Facebook">
+</a>
+
+<a href="https://twitter.com/" target="_blank">
+<img src="images/twitter.png" alt="Twitter">
+</a>
+
+<a href="https://youtube.com/@inamigosfoundation4296" target="_blank">
+<img src="images/youtube.png" alt="YouTube">
+</a>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>
+
+© 2026 InAmigos Foundation
+
+</p>
+
+<p>
+
+#InAmigos #NGO #Education #Environment
+
+</p>
+
+</footer>
+
+
+</body>
+
+</html>
